@@ -10144,4 +10144,14 @@ section.resume-section .resume-section-content {
   }
 }
 
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /Takes 90% width from WebContainer/
+    height: auto;
+    margin: auto;
+}
+
 /* ================ The Timeline ================ */
