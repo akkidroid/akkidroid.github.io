@@ -46,9 +46,6 @@
 *::after {
   box-sizing: border-box;
 }
-div {
-  zoom: 75%;
-}
 html {
   font-family: sans-serif;
   scroll-behavior: smooth;
