@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Sentinel to Defender Migration</title>
+  <desc id="desc">Migration flow from Sentinel to Defender with secure transition.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07152e"/><stop offset="100%" stop-color="#04070f"/></linearGradient></defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g transform="translate(76 120)">
+    <rect x="0" y="48" width="232" height="140" rx="14" fill="#12284d" stroke="#66ddff" stroke-width="3"/>
+    <text x="116" y="126" fill="#d8eeff" font-family="'Space Grotesk', Arial" font-size="26" text-anchor="middle">SENTINEL</text>
+    <rect x="488" y="48" width="232" height="140" rx="14" fill="#112443" stroke="#66ddff" stroke-width="3"/>
+    <text x="604" y="126" fill="#d8eeff" font-family="'Space Grotesk', Arial" font-size="26" text-anchor="middle">DEFENDER</text>
+    <path d="M258 118h188" stroke="#ff6d8e" stroke-width="8" stroke-linecap="round"/>
+    <path d="M428 104l30 14-30 14" fill="#ff6d8e"/>
+    <g fill="#0d2242" stroke="#62dbff" stroke-width="2.5">
+      <rect x="54" y="220" width="96" height="60" rx="8"/><rect x="206" y="220" width="96" height="60" rx="8"/>
+      <rect x="356" y="220" width="96" height="60" rx="8"/><rect x="506" y="220" width="96" height="60" rx="8"/>
+    </g>
+  </g>
+  <text x="36" y="468" fill="#d6ebff" font-family="'Space Grotesk', Arial, sans-serif" font-size="28" font-weight="700">ADANI: ENTERPRISE EDR MIGRATION</text>
+</svg>

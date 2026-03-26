@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">E3 to E5 Security License Migration</title>
+  <desc id="desc">Microsoft security licensing and policy optimization flow.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07142b"/><stop offset="100%" stop-color="#04070f"/></linearGradient></defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g transform="translate(116 102)">
+    <rect x="0" y="34" width="186" height="120" rx="12" fill="#12284d" stroke="#67ddff" stroke-width="3"/>
+    <text x="93" y="106" fill="#d8eeff" font-family="'Space Grotesk', Arial" font-size="40" font-weight="700" text-anchor="middle">E3</text>
+    <rect x="384" y="34" width="186" height="120" rx="12" fill="#112443" stroke="#67ddff" stroke-width="3"/>
+    <text x="477" y="106" fill="#d8eeff" font-family="'Space Grotesk', Arial" font-size="40" font-weight="700" text-anchor="middle">E5</text>
+    <path d="M206 94h156" stroke="#ff6d8e" stroke-width="8" stroke-linecap="round"/><path d="M340 80l28 14-28 14" fill="#ff6d8e"/>
+    <g transform="translate(40 204)">
+      <rect x="0" y="0" width="520" height="122" rx="12" fill="#0c203f" stroke="#66ddff" stroke-width="2.5"/>
+      <line x1="80" y1="34" x2="470" y2="34" stroke="#2f6ea2" stroke-width="4"/>
+      <circle cx="186" cy="34" r="14" fill="#ff6d8e"/><circle cx="324" cy="34" r="14" fill="#67ddff"/>
+      <line x1="80" y1="78" x2="470" y2="78" stroke="#2f6ea2" stroke-width="4"/>
+      <circle cx="256" cy="78" r="14" fill="#67ddff"/>
+    </g>
+  </g>
+  <text x="36" y="468" fill="#d6ebff" font-family="'Space Grotesk', Arial, sans-serif" font-size="28" font-weight="700">ADANI: E3 TO E5 SECURITY OPTIMIZATION</text>
+</svg>

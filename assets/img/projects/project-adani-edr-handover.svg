@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">EDR Handover and Security Operations</title>
+  <desc id="desc">Endpoint fleet with central shield representing managed EDR operations.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#06142b"/><stop offset="100%" stop-color="#04070f"/></linearGradient></defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g opacity="0.2" stroke="#4eaef2" stroke-width="1"><path d="M0 100h800"/><path d="M0 200h800"/><path d="M0 300h800"/><path d="M0 400h800"/></g>
+  <g transform="translate(140 120)">
+    <rect x="0" y="18" width="110" height="84" rx="10" fill="#0d2447" stroke="#66ddff" stroke-width="2.5"/>
+    <rect x="420" y="18" width="110" height="84" rx="10" fill="#0d2447" stroke="#66ddff" stroke-width="2.5"/>
+    <rect x="0" y="178" width="110" height="84" rx="10" fill="#0d2447" stroke="#66ddff" stroke-width="2.5"/>
+    <rect x="420" y="178" width="110" height="84" rx="10" fill="#0d2447" stroke="#66ddff" stroke-width="2.5"/>
+    <path d="M110 60H220M420 60H310M110 220H220M420 220H310" stroke="#4aaef3" stroke-width="3"/>
+    <path d="M265 18l82 32v60c0 62-82 96-82 96s-82-34-82-96V50l82-32z" fill="#081a35" stroke="#6ce3ff" stroke-width="4"/>
+    <path d="M230 102h70M230 124h70" stroke="#ff6b8c" stroke-width="4"/>
+  </g>
+  <text x="36" y="468" fill="#d6ebff" font-family="'Space Grotesk', Arial, sans-serif" font-size="28" font-weight="700">ADANI: EDR HANDOVER &amp; OPERATIONS MANAGEMENT</text>
+</svg>
+

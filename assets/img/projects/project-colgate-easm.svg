@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">External Attack Surface &amp; Fake App Investigation</title>
+  <desc id="desc">Globe reconnaissance with app verification and threat indicators.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07162f"/><stop offset="100%" stop-color="#04070f"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6be8ff"/><stop offset="100%" stop-color="#ff5f83"/></linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g opacity="0.22" stroke="#4faef4" stroke-width="1"><path d="M0 90h800"/><path d="M0 180h800"/><path d="M0 270h800"/><path d="M0 360h800"/><path d="M0 450h800"/></g>
+  <g transform="translate(96 98)">
+    <circle cx="170" cy="150" r="108" fill="none" stroke="#67ddff" stroke-width="3"/>
+    <ellipse cx="170" cy="150" rx="84" ry="108" fill="none" stroke="#2f6ea1" stroke-width="2"/>
+    <ellipse cx="170" cy="150" rx="40" ry="108" fill="none" stroke="#2f6ea1" stroke-width="2"/>
+    <path d="M62 150h216M74 104h192M74 196h192" stroke="#2f6ea1" stroke-width="2"/>
+    <circle cx="286" cy="236" r="44" fill="none" stroke="url(#ac)" stroke-width="8"/>
+    <path d="M317 267l46 46" stroke="url(#ac)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(434 102)">
+    <rect x="0" y="0" width="274" height="160" rx="14" fill="#0a1d3a" stroke="#68dcff" stroke-width="3"/>
+    <rect x="24" y="26" width="92" height="108" rx="8" fill="#102b52" stroke="#67ddff"/>
+    <rect x="136" y="26" width="114" height="50" rx="8" fill="#102b52" stroke="#67ddff"/>
+    <rect x="136" y="86" width="114" height="48" rx="8" fill="#291833" stroke="#ff6d8e"/>
+    <path d="M42 58h56M42 76h42" stroke="#d8ecff" stroke-width="3"/>
+    <path d="M156 52h74M156 106h74" stroke="#d8ecff" stroke-width="3"/>
+  </g>
+  <text x="36" y="468" fill="#d6ebff" font-family="'Space Grotesk', Arial, sans-serif" font-size="28" font-weight="700">COLGATE: EXTERNAL ATTACK SURFACE INVESTIGATION</text>
+</svg>
+

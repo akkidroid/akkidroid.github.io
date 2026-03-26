@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">IceWarp Secure Email Platform Testing</title>
+  <desc id="desc">Secure email validation with lock and policy compliance checks.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07162f"/><stop offset="100%" stop-color="#04070f"/></linearGradient></defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g transform="translate(128 96)">
+    <rect x="0" y="40" width="330" height="220" rx="16" fill="#0d2447" stroke="#67ddff" stroke-width="3"/>
+    <path d="M0 78l165 104L330 78" fill="none" stroke="#67ddff" stroke-width="3"/>
+    <rect x="378" y="28" width="234" height="242" rx="14" fill="#0d1f3d" stroke="#67ddff" stroke-width="3"/>
+    <path d="M430 110h130M430 144h98M430 178h156" stroke="#d8ecff" stroke-width="4"/>
+    <rect x="108" y="114" width="112" height="90" rx="12" fill="#0a1b35" stroke="#ff6d8e" stroke-width="3"/>
+    <path d="M138 114v-20c0-14 10-26 26-26s26 12 26 26v20" fill="none" stroke="#ff6d8e" stroke-width="4"/>
+  </g>
+  <text x="36" y="468" fill="#d6ebff" font-family="'Space Grotesk', Arial, sans-serif" font-size="28" font-weight="700">ADANI: ICEWARP SECURE EMAIL TESTING</text>
+</svg>

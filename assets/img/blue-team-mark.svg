@@ -1,0 +1,39 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Blue team shield logo">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08152a"/>
+      <stop offset="100%" stop-color="#0e1a33"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#59d0ff"/>
+      <stop offset="100%" stop-color="#6ea3ff"/>
+    </linearGradient>
+    <linearGradient id="hoodGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4f9ff"/>
+      <stop offset="100%" stop-color="#b8ddff"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="10" y="10" width="236" height="236" rx="58" fill="url(#bgGrad)" />
+  <rect x="13" y="13" width="230" height="230" rx="55" fill="none" stroke="url(#rimGrad)" stroke-width="4" />
+
+  <path d="M128 48C96 48 72 66 62 98C56 116 56 146 66 168C78 194 101 210 128 220C155 210 178 194 190 168C200 146 200 116 194 98C184 66 160 48 128 48Z" fill="#0a1428" />
+  <path d="M128 57C101 57 81 72 72 100C66 118 66 145 75 165C86 188 106 202 128 212C150 202 170 188 181 165C190 145 190 118 184 100C175 72 155 57 128 57Z" fill="none" stroke="#56ceff" stroke-opacity="0.58" stroke-width="3"/>
+
+  <path d="M83 126C86 91 104 74 128 74C152 74 170 91 173 126C159 111 145 104 128 104C111 104 97 111 83 126Z" fill="url(#hoodGrad)" filter="url(#softGlow)"/>
+  <path d="M94 131C100 115 112 106 128 106C144 106 156 115 162 131C151 142 141 148 128 148C115 148 105 142 94 131Z" fill="#081224"/>
+  <path d="M103 131C108 120 117 114 128 114C139 114 148 120 153 131C145 138 137 142 128 142C119 142 111 138 103 131Z" fill="#e8f5ff"/>
+
+  <rect x="110" y="121" width="36" height="6" rx="3" fill="#081224"/>
+  <circle cx="117" cy="124" r="2.4" fill="#59d0ff"/>
+  <circle cx="139" cy="124" r="2.4" fill="#59d0ff"/>
+
+  <path d="M78 177L98 162M178 177L158 162" stroke="#58ceff" stroke-width="3.2" stroke-linecap="round" stroke-opacity="0.68"/>
+</svg>

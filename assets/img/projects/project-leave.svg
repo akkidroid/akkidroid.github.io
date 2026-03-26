@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Online Leave Management System</title>
+  <desc id="desc">Workflow dashboard with calendar, approval path, and records tracking.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07142b"/>
+      <stop offset="100%" stop-color="#04070f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g opacity="0.23" stroke="#4aaef2" stroke-width="1">
+    <path d="M0 90h800"/><path d="M0 180h800"/><path d="M0 270h800"/><path d="M0 360h800"/><path d="M0 450h800"/>
+  </g>
+  <g transform="translate(94 92)">
+    <rect x="0" y="0" width="300" height="320" rx="14" fill="#0a1b36" stroke="#65dbff" stroke-width="3"/>
+    <rect x="0" y="0" width="300" height="60" rx="14" fill="#0f2a52"/>
+    <path d="M54 0v30M246 0v30" stroke="#ff6a8c" stroke-width="6"/>
+    <g fill="#0d2242">
+      <rect x="24" y="86" width="58" height="46" rx="7"/><rect x="96" y="86" width="58" height="46" rx="7"/><rect x="168" y="86" width="58" height="46" rx="7"/>
+      <rect x="24" y="146" width="58" height="46" rx="7"/><rect x="96" y="146" width="58" height="46" rx="7"/><rect x="168" y="146" width="58" height="46" rx="7"/>
+      <rect x="24" y="206" width="58" height="46" rx="7"/><rect x="96" y="206" width="58" height="46" rx="7"/><rect x="168" y="206" width="58" height="46" rx="7"/>
+    </g>
+    <rect x="96" y="146" width="58" height="46" rx="7" fill="#ff6a8c" opacity="0.8"/>
+  </g>
+  <g transform="translate(456 118)">
+    <rect x="0" y="0" width="250" height="92" rx="10" fill="#091a33" stroke="#66ddff" stroke-width="2.5"/>
+    <rect x="0" y="126" width="250" height="92" rx="10" fill="#091a33" stroke="#66ddff" stroke-width="2.5"/>
+    <rect x="0" y="252" width="250" height="92" rx="10" fill="#091a33" stroke="#66ddff" stroke-width="2.5"/>
+    <path d="M86 46h120M86 66h90" stroke="#d5ebff" stroke-width="3"/>
+    <path d="M86 172h120M86 192h90" stroke="#d5ebff" stroke-width="3"/>
+    <path d="M86 298h120M86 318h90" stroke="#d5ebff" stroke-width="3"/>
+    <circle cx="44" cy="46" r="20" fill="#0f2d56" stroke="#66ddff" stroke-width="2"/>
+    <circle cx="44" cy="172" r="20" fill="#0f2d56" stroke="#66ddff" stroke-width="2"/>
+    <circle cx="44" cy="298" r="20" fill="#0f2d56" stroke="#66ddff" stroke-width="2"/>
+  </g>
+  <g stroke="#ff6a8c" stroke-width="5" fill="none">
+    <path d="M410 168h30"/><path d="M410 292h30"/>
+    <path d="M436 160l14 8-14 8"/><path d="M436 284l14 8-14 8"/>
+  </g>
+  <text x="36" y="485" fill="#d8eeff" font-family="'Space Grotesk', Arial, sans-serif" font-size="34" font-weight="700">ONLINE LEAVE MANAGEMENT SYSTEM</text>
+</svg>

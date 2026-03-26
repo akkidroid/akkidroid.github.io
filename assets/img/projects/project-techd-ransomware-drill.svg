@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ransomware Incident Simulation Drill</title>
+  <desc id="desc">Cyber drill simulation for leadership incident response readiness.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#06142b"/><stop offset="100%" stop-color="#04070f"/></linearGradient></defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g transform="translate(92 96)">
+    <rect x="0" y="0" width="300" height="300" rx="14" fill="#0d2448" stroke="#67ddff" stroke-width="3"/>
+    <path d="M106 74h88v36h-20v16h20v38h-88v-38h20v-16h-20z" fill="#ff6d8e"/>
+    <circle cx="142" cy="108" r="7" fill="#0d2448"/><circle cx="158" cy="108" r="7" fill="#0d2448"/>
+    <rect x="130" y="130" width="40" height="14" rx="7" fill="#0d2448"/>
+    <rect x="66" y="198" width="168" height="66" rx="10" fill="#0b1c37" stroke="#67ddff"/>
+    <path d="M94 228h110M94 246h82" stroke="#d8ecff" stroke-width="4"/>
+    <rect x="356" y="26" width="256" height="274" rx="14" fill="#0d1f3d" stroke="#67ddff" stroke-width="3"/>
+    <path d="M392 84h186M392 126h186M392 168h120M392 210h158" stroke="#d8ecff" stroke-width="4"/>
+    <circle cx="378" cy="84" r="8" fill="#67ddff"/><circle cx="378" cy="126" r="8" fill="#67ddff"/><circle cx="378" cy="168" r="8" fill="#ff6d8e"/><circle cx="378" cy="210" r="8" fill="#67ddff"/>
+  </g>
+  <text x="36" y="468" fill="#d6ebff" font-family="'Space Grotesk', Arial, sans-serif" font-size="28" font-weight="700">TECHD: RANSOMWARE RESPONSE DRILL</text>
+</svg>

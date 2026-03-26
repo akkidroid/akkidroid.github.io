@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">BeEF Deployment for Threat Actor Tracking</title>
+  <desc id="desc">Browser exploitation framework deployed for controlled threat tracking.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07142b"/><stop offset="100%" stop-color="#04070f"/></linearGradient></defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g transform="translate(108 108)">
+    <rect x="0" y="0" width="584" height="300" rx="14" fill="#0b1f3d" stroke="#67ddff" stroke-width="3"/>
+    <rect x="0" y="0" width="584" height="34" rx="14" fill="#12305a"/>
+    <circle cx="26" cy="17" r="5" fill="#ff6d8e"/><circle cx="44" cy="17" r="5" fill="#67ddff"/><circle cx="62" cy="17" r="5" fill="#d6ebff"/>
+    <rect x="34" y="56" width="516" height="210" rx="10" fill="#0a1933" stroke="#2c699a"/>
+    <circle cx="292" cy="162" r="68" fill="none" stroke="#ff6d8e" stroke-width="4"/>
+    <circle cx="292" cy="162" r="30" fill="none" stroke="#ff6d8e" stroke-width="4"/>
+    <path d="M292 74v176M204 162h176" stroke="#ff6d8e" stroke-width="4"/>
+    <path d="M84 96l46 46M500 230l46 46M500 96l46 46M84 230l46 46" stroke="#67ddff" stroke-width="3"/>
+  </g>
+  <text x="36" y="468" fill="#d6ebff" font-family="'Space Grotesk', Arial, sans-serif" font-size="28" font-weight="700">ADANI: BEEF-BASED THREAT ACTOR TRACKING</text>
+</svg>

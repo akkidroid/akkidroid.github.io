@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Active Directory Penetration Testing</title>
+  <desc id="desc">A cyber diagram with shield, identity nodes, and attack path traces.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07152d"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#56dcff"/>
+      <stop offset="100%" stop-color="#ff4f76"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g opacity="0.25" stroke="#4baef5" stroke-width="1">
+    <path d="M0 80H800"/><path d="M0 160H800"/><path d="M0 240H800"/><path d="M0 320H800"/><path d="M0 400H800"/>
+    <path d="M100 0V520"/><path d="M200 0V520"/><path d="M300 0V520"/><path d="M400 0V520"/><path d="M500 0V520"/><path d="M600 0V520"/><path d="M700 0V520"/>
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-width="3" filter="url(#glow)">
+    <path d="M170 120 L320 180 L430 110 L600 170"/>
+    <path d="M170 360 L320 280 L430 360 L600 290"/>
+    <path d="M320 180 L320 280"/>
+    <path d="M430 110 L430 360"/>
+  </g>
+  <g fill="#88e4ff" stroke="#bdeeff" stroke-width="2">
+    <circle cx="170" cy="120" r="12"/><circle cx="320" cy="180" r="12"/><circle cx="430" cy="110" r="12"/><circle cx="600" cy="170" r="12"/>
+    <circle cx="170" cy="360" r="12"/><circle cx="320" cy="280" r="12"/><circle cx="430" cy="360" r="12"/><circle cx="600" cy="290" r="12"/>
+  </g>
+  <g transform="translate(318 200)">
+    <path d="M82 30l82 32v55c0 60-82 95-82 95s-82-35-82-95V62l82-32z" fill="#081b34" stroke="#69ddff" stroke-width="4"/>
+    <path d="M82 72c17 0 31 14 31 31v18H51v-18c0-17 14-31 31-31z" fill="none" stroke="#ff6d8f" stroke-width="4"/>
+    <circle cx="82" cy="107" r="8" fill="#ff6d8f"/>
+  </g>
+  <text x="36" y="485" fill="#d9eeff" font-family="'Space Grotesk', Arial, sans-serif" font-size="34" font-weight="700">ACTIVE DIRECTORY PENETRATION TESTING</text>
+</svg>

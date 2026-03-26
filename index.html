@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Akshay Koshti - Blue Team and Security Operations Center Portfolio" />
+  <meta name="theme-color" content="#050b17" />
+  <title>Akshay Koshti | SOC Console Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/ak-mark.svg" />
+  <link rel="shortcut icon" type="image/svg+xml" href="assets/img/ak-mark.svg" />
+  <link rel="apple-touch-icon" href="assets/img/ak-mark.svg" />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+  <link rel="dns-prefetch" href="//formsubmit.co" />
+  <link rel="dns-prefetch" href="//api.countapi.xyz" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://formsubmit.co" />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/img/ak-mark.svg" type="image/svg+xml" />
+  <link rel="preload" as="image" href="assets/img/profile.jpg" />
+  <link rel="preload" as="image" href="assets/img/projects/project-ad.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="is-loading">
+  <div id="socLoader" class="soc-loader" aria-live="polite" aria-label="Loading SOC dashboard">
+    <div class="soc-loader-grid" aria-hidden="true"></div>
+    <div class="soc-loader-inner">
+      <div class="soc-loader-head">
+        <img src="assets/img/ak-mark.svg" width="40" height="40" alt="AK monogram" class="soc-loader-mark" />
+        <div>
+          <p class="soc-loader-eyebrow">SOC PRE-BOOT</p>
+          <h1>Initiating Akshay Koshti Personal Portfolio</h1>
+        </div>
+      </div>
+
+      <div class="soc-map-wrap">
+        <svg class="soc-world-map" viewBox="0 0 1000 500" role="img" aria-label="Global cyber attack map">
+          <rect x="0" y="0" width="1000" height="500" rx="14" class="soc-map-bg"></rect>
+
+          <g class="soc-map-land">
+            <path d="M90 170l70-50 100 10 20 40-40 35-90 10-60-25z"></path>
+            <path d="M265 250l65-22 42 36-22 56-40 26-45-40z"></path>
+            <path d="M430 145l95-48 115 7 100 30-30 35-130 14-60 20-70-16z"></path>
+            <path d="M575 220l120-16 105 34 30 40-45 38-140 12-75-32z"></path>
+            <path d="M790 328l60-8 48 30-18 55-65 30-52-28z"></path>
+          </g>
+
+          <g class="soc-map-points">
+            <circle cx="150" cy="185" r="4"></circle>
+            <circle cx="210" cy="165" r="4"></circle>
+            <circle cx="315" cy="292" r="4"></circle>
+            <circle cx="470" cy="170" r="4"></circle>
+            <circle cx="560" cy="145" r="4"></circle>
+            <circle cx="620" cy="250" r="4"></circle>
+            <circle cx="710" cy="220" r="4"></circle>
+            <circle cx="760" cy="250" r="4"></circle>
+            <circle cx="835" cy="375" r="4"></circle>
+            <circle cx="540" cy="220" r="4"></circle>
+          </g>
+
+          <g id="loaderAttackLayer"></g>
+        </svg>
+
+        <div class="soc-loader-feed" id="loaderEventStream">
+          <p>[INIT] SOC telemetry pipeline booting...</p>
+        </div>
+      </div>
+
+      <div class="soc-loader-progress">
+        <div class="soc-loader-bar">
+          <span id="loaderProgressFill"></span>
+        </div>
+        <p class="soc-loader-status">
+          Correlating global attack traffic <strong id="loaderProgressValue">0%</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="background-grid" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="top-nav">
+    <a class="brand" href="#home">
+      <img src="assets/img/ak-mark.svg" width="32" height="32" alt="AK initials logo" class="brand-logo" />
+    </a>
+    <div class="nav-right">
+      <span class="live-pill">SOC STATUS: ACTIVE</span>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+    </div>
+    <nav>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#toolstack">Toolstack</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section reveal">
+      <div class="hero-copy hud-panel">
+        <p class="threat-strip">DEFENSE MODE: AGGRESSIVE</p>
+        <p class="eyebrow">Blue Team | Security Operations Centre | Incident Response</p>
+        <h1 class="hero-title">
+          <span class="hero-name">Akshay Koshti</span>
+          <span class="hero-role">Deputy Manager | Security Operations</span>
+        </h1>
+        <p class="hero-tagline">Leading Blue Team Defense and Security Operations</p>
+        <p class="summary">
+          Experienced Deputy Manager and Security Operations leader focused on threat detection, EDR/SIEM engineering,
+          and incident response at enterprise scale.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="assets/docs/akshay_resume.pdf" download>Download Resume</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/akshaykoshti" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/akkidroid" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+
+        <div class="telemetry-list">
+          <p class="telemetry-item"><span>Current Focus:</span> SOC Process Hardening and XDR Enablement</p>
+          <p class="telemetry-item"><span>Operating Region:</span> Ahmedabad, Gujarat, India</p>
+          <p class="telemetry-item"><span>Contact:</span> akshaykoshti97@gmail.com</p>
+        </div>
+
+        <p id="socLog" class="soc-log">Initializing SOC telemetry...</p>
+      </div>
+
+      <aside class="operator-panel hud-panel" aria-label="Operator profile and SOC readiness">
+        <div class="profile-wrap">
+          <img src="assets/img/profile.jpg" width="96" height="96" fetchpriority="high" decoding="async" alt="Profile photo of Akshay Koshti" class="profile-photo" />
+          <div class="operator-id">
+            <h2>Akshay Koshti</h2>
+            <p>Deputy Manager | Cybersecurity</p>
+          </div>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric-card">
+            <p
+              class="metric-value"
+              data-metric="experienceYears"
+              data-format="decimal1-plus"
+            >
+              0
+            </p>
+            <p class="metric-label">Cybersecurity Experience (Years)</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-value" data-target="20" data-format="int-plus">0</p>
+            <p class="metric-label">Clients Supported</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-value" data-metric="projectsCount" data-source=".project-slide" data-format="int">0</p>
+            <p class="metric-label">Projects Delivered</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-value" data-metric="certificationsCount" data-source=".cert-card" data-format="int">0</p>
+            <p class="metric-label">Certifications Earned</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-value" data-metric="toolingCount" data-source=".logo-item" data-format="int">0</p>
+            <p class="metric-label">Security Tools in Stack</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-value" data-target="24" data-format="int">0</p>
+            <p class="metric-label">SOC Monitoring Coverage (Hours)</p>
+          </article>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">Profile</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="panel about-panel">
+        <p class="about-lead">
+          With over 4 years of hands-on cybersecurity experience, I work at the intersection of Security Operations,
+          incident response, and enterprise security engineering. I currently serve as a Deputy Manager, leading
+          multi-client security initiatives, SOC process improvements, and blue-team programs designed for faster
+          detection and stronger response.
+        </p>
+        <p>
+          Across organizations including Colgate, Adani, and TechD Cybersecurity, I have managed end-to-end SOC
+          workflows from alert monitoring and triage to investigation, threat containment, and executive reporting.
+          My practical exposure covers SIEM operations, EDR lifecycle management, phishing simulation infrastructure,
+          cyber drill execution, and continuous security posture enhancement.
+        </p>
+        <p>
+          I have worked deeply across ArcSight, Splunk, Seceon, and Securonix, and led operational delivery for
+          endpoint platforms such as CrowdStrike, Microsoft Defender, Bitdefender, SentinelOne, and Seqrite. Alongside
+          this, I contribute to threat intelligence and external attack surface programs to support proactive defense,
+          risk reduction, and SOC maturity at enterprise scale.
+        </p>
+        <h3 class="about-subtitle">What I Bring</h3>
+        <ul class="about-list">
+          <li>Security Operations leadership with strong ownership of delivery and response outcomes</li>
+          <li>SIEM and EDR engineering experience across enterprise and multi-client environments</li>
+          <li>Incident readiness through phishing simulations, tabletop exercises, and ransomware drills</li>
+          <li>Threat intelligence correlation and external attack surface monitoring for proactive defense</li>
+          <li>Operational governance with SLA-focused reporting, stakeholder communication, and process hardening</li>
+        </ul>
+      </div>
+    </section>
+
+            <section id="toolstack" class="section reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">Visual Stack</p>
+        <h2>SOC Tool Wall</h2>
+      </div>
+      <div class="panel tool-wall-panel">
+        <div class="tool-groups" role="tablist" aria-label="Tool category filters" data-rotate-interval="4200">
+          <button type="button" class="tool-group-btn is-active" data-tool-group="security">
+            <span class="tool-group-label">Security Tools</span>
+            <span class="tool-group-count">0</span>
+          </button>
+          <button type="button" class="tool-group-btn" data-tool-group="techstack">
+            <span class="tool-group-label">Technology Stack</span>
+            <span class="tool-group-count">0</span>
+          </button>
+          <button type="button" class="tool-group-btn" data-tool-group="os">
+            <span class="tool-group-label">Operating System</span>
+            <span class="tool-group-count">0</span>
+          </button>
+          <button type="button" class="tool-group-btn" data-tool-group="programming">
+            <span class="tool-group-label">Programming Language</span>
+            <span class="tool-group-count">0</span>
+          </button>
+          <button type="button" class="tool-group-btn" data-tool-group="office">
+            <span class="tool-group-label">Office Utilities</span>
+            <span class="tool-group-count">0</span>
+          </button>
+        </div>
+        <div class="logo-wall" id="toolWall" aria-label="SOC security tools logos">
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/microsoft-sentinel.png" decoding="async" alt="Microsoft Sentinel logo" loading="lazy" />
+            <figcaption>Microsoft Sentinel</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/splunk.png" decoding="async" alt="Splunk logo" loading="lazy" />
+            <figcaption>Splunk</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/securonix.png" decoding="async" alt="Securonix logo" loading="lazy" />
+            <figcaption>Securonix</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/seceon.png" decoding="async" alt="Seceon logo" loading="lazy" />
+            <figcaption>Seceon</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/gurucul.png" decoding="async" alt="Gurucul logo" loading="lazy" />
+            <figcaption>Gurucul</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/crowdstrike.png" decoding="async" alt="CrowdStrike logo" loading="lazy" />
+            <figcaption>CrowdStrike</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/seqrite.png" decoding="async" alt="Seqrite logo" loading="lazy" />
+            <figcaption>Seqrite</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/bitdefender.png" decoding="async" alt="Bitdefender logo" loading="lazy" />
+            <figcaption>Bitdefender</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/sentinelone.png" decoding="async" alt="SentinelOne logo" loading="lazy" />
+            <figcaption>SentinelOne</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/ram2.png" decoding="async" alt="RAM2 logo" loading="lazy" />
+            <figcaption>RAM2</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/recorded-future.png" decoding="async" alt="Recorded Future logo" loading="lazy" />
+            <figcaption>Recorded Future</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/anomali.png" decoding="async" alt="Anomali logo" loading="lazy" />
+            <figcaption>Anomali</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/cyble.png" decoding="async" alt="Cyble logo" loading="lazy" />
+            <figcaption>Cyble</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/bitsight.png" decoding="async" alt="BitSight logo" loading="lazy" />
+            <figcaption>BitSight</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/cycognito.png" decoding="async" alt="Cycognito logo" loading="lazy" />
+            <figcaption>Cycognito</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/microsoft-defender.png" decoding="async" alt="Microsoft Defender logo" loading="lazy" />
+            <figcaption>Microsoft Defender</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/harmony-checkpoint.png" decoding="async" alt="Harmony by Check Point logo" loading="lazy" />
+            <figcaption>Harmony by Check Point</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/forcepoint.png" decoding="async" alt="Forcepoint logo" loading="lazy" />
+            <figcaption>Forcepoint</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/safetica.png" decoding="async" alt="Safetica logo" loading="lazy" />
+            <figcaption>Safetica</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-1.png" decoding="async" alt="Tool 01 logo" loading="lazy" />
+            <figcaption>Metasploit</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-2.png" decoding="async" alt="Tool 02 logo" loading="lazy" />
+            <figcaption>Autopsy</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-3.png" decoding="async" alt="Tool 03 logo" loading="lazy" />
+            <figcaption>Burp Suite</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-4.png" decoding="async" alt="Tool 04 logo" loading="lazy" />
+            <figcaption>Maltego</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-5.png" decoding="async" alt="Tool 05 logo" loading="lazy" />
+            <figcaption>Mobilyzer by Black Bag</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-6.png" decoding="async" alt="Tool 06 logo" loading="lazy" />
+            <figcaption>Nessus</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-7.png" decoding="async" alt="Tool 07 logo" loading="lazy" />
+            <figcaption>Nmap</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-8.png" decoding="async" alt="Tool 08 logo" loading="lazy" />
+            <figcaption>Shodan</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-9.png" decoding="async" alt="Tool 09 logo" loading="lazy" />
+            <figcaption>Splunk</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="security">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-10.png" decoding="async" alt="Tool 10 logo" loading="lazy" />
+            <figcaption>Wireshark</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="techstack">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-11.png" decoding="async" alt="Tool 11 logo" loading="lazy" />
+            <figcaption>VirtualBox</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="techstack">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-12.png" decoding="async" alt="Tool 12 logo" loading="lazy" />
+            <figcaption>VMware</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="techstack">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-13.png" decoding="async" alt="Tool 13 logo" loading="lazy" />
+            <figcaption>Azure Cloud Services</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="techstack">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-14.png" decoding="async" alt="Tool 14 logo" loading="lazy" />
+            <figcaption>GCP Cloud Services</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="os">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-15.png" decoding="async" alt="Tool 15 logo" loading="lazy" />
+            <figcaption>Kali Linux OS</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="os">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-16.png" decoding="async" alt="Tool 16 logo" loading="lazy" />
+            <figcaption>Ubuntu OS</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="os">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-17.png" decoding="async" alt="Tool 17 logo" loading="lazy" />
+            <figcaption>Windows OS</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="os">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/macos.svg" decoding="async" alt="macOS logo" loading="lazy" />
+            <figcaption>Mac OS</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="programming">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-18.png" decoding="async" alt="Tool 18 logo" loading="lazy" />
+            <figcaption>C Language</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="programming">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-19.png" decoding="async" alt="Tool 19 logo" loading="lazy" />
+            <figcaption>C++ Language</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="programming">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-20.png" decoding="async" alt="Tool 20 logo" loading="lazy" />
+            <figcaption>Python</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="programming">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/logo-21.png" decoding="async" alt="Tool 21 logo" loading="lazy" />
+            <figcaption>HTML + CSS</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="office">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/powershell.svg" decoding="async" alt="PowerShell logo" loading="lazy" />
+            <figcaption>PowerShell</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="office">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/cmd.svg" decoding="async" alt="CMD logo" loading="lazy" />
+            <figcaption>Command Prompt (CMD)</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="office">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/office-apps.svg" decoding="async" alt="Office applications logo" loading="lazy" />
+            <figcaption>Office Applications</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="office">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/power-automate.svg" decoding="async" alt="Power Automate logo" loading="lazy" />
+            <figcaption>Power Automate</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="office">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/servicenow.svg" decoding="async" alt="ServiceNow logo" loading="lazy" />
+            <figcaption>ServiceNow</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="office">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/bmc-remedy.svg" decoding="async" alt="BMC Remedy logo" loading="lazy" />
+            <figcaption>BMC Remedy</figcaption>
+          </figure>
+          <figure class="logo-item" data-tool-group="office">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/tool-logos/itop.svg" decoding="async" alt="iTop logo" loading="lazy" />
+            <figcaption>iTop</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">Capabilities</p>
+        <h2>Blue Team Skill Matrix</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>SIEM & Detection Engineering</h3>
+          <ul>
+            <li>ArcSight</li>
+            <li>Splunk</li>
+            <li>Seceon</li>
+            <li>Securonix</li>
+            <li>KQL Detection Logic</li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>EDR Operations</h3>
+          <ul>
+            <li>CrowdStrike Falcon</li>
+            <li>Microsoft Defender ATP</li>
+            <li>Bitdefender</li>
+            <li>SentinelOne</li>
+            <li>Seqrite</li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>SOC & Incident Response</h3>
+          <ul>
+            <li>Incident triage and containment</li>
+            <li>Threat intelligence integration</li>
+            <li>Phishing simulations with GoPhish</li>
+            <li>IOC handling and blocking</li>
+            <li>SOC workflow improvements</li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>Security Governance & Platforms</h3>
+          <ul>
+            <li>Prisma Cloud Security</li>
+            <li>O365 and Area1 Mail Security</li>
+            <li>BitSight, SecurityScorecard, Cycognito</li>
+            <li>ServiceNow and BMC ticketing</li>
+            <li>SLA-based operational reporting</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">Journey</p>
+        <h2>Security Operations Experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date" data-start-date="2025-05-01" data-count-experience="true">
+            <span class="timeline-range">01 May 2025 - Present</span>
+            <span class="timeline-duration"></span>
+          </div>
+          <div class="timeline-content">
+            <h3>Deputy Manager - TechD Cybersecurity Limited</h3>
+            <ul>
+              <li>Lead Product Support Group for deployment/support projects across major security products.</li>
+              <li>Manage Seceon XDR onboarding, issue triage, troubleshooting, and client success.</li>
+              <li>Conduct cyber drills and table-top exercises aligned with client readiness goals.</li>
+              <li>Drive SOC continuous improvement and future-state operational updates.</li>
+              <li>Run phishing simulation programs through GoPhish to improve employee readiness.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date" data-start-date="2021-12-30" data-end-date="2025-04-21" data-count-experience="true">
+            <span class="timeline-range">30 Dec 2021 - 21 Apr 2025</span>
+            <span class="timeline-duration"></span>
+          </div>
+          <div class="timeline-content">
+            <h3>Deputy Manager - Adani Enterprise Limited</h3>
+            <ul>
+              <li>Executed SIEM analysis and log operations using ArcSight.</li>
+              <li>Managed advanced hunting and investigation in Microsoft Defender ATP.</li>
+              <li>Built KQL detections and improved SOC alert quality.</li>
+              <li>Led phishing campaign response and O365 protection recommendations.</li>
+              <li>Performed investigations using CrowdStrike and Recorded Future intelligence context.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date" data-start-date="2021-07-19" data-end-date="2021-09-27" data-count-experience="true">
+            <span class="timeline-range">19 Jul 2021 - 27 Sep 2021</span>
+            <span class="timeline-duration"></span>
+          </div>
+          <div class="timeline-content">
+            <h3>SOC Analyst - Techdefence Labs Solution Pvt. Limited</h3>
+            <ul>
+              <li>Monitored and triaged incidents with daily reporting for multiple clients.</li>
+              <li>Prepared threat advisories and built custom Splunk hunts/rules.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date" data-start-date="2021-01-11" data-end-date="2021-07-09" data-count-experience="true">
+            <span class="timeline-range">11 Jan 2021 - 09 Jul 2021</span>
+            <span class="timeline-duration"></span>
+          </div>
+          <div class="timeline-content">
+            <h3>SOC Analyst Intern - Colgate Palmolive</h3>
+            <ul>
+              <li>Supported SIEM and OT monitoring operations and use-case improvements.</li>
+              <li>Worked on posture and intelligence initiatives including BitSight and Cycognito.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date" data-start-date="2018-06-21" data-end-date="2018-12-31" data-count-experience="false">
+            <span class="timeline-range">21 Jun 2018 - 31 Dec 2018</span>
+            <span class="timeline-duration"></span>
+          </div>
+          <div class="timeline-content">
+            <h3>Technical Consultant - RESS GmbH</h3>
+            <ul>
+              <li>Researched emerging technologies and prepared client-facing workshop material.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date" data-start-date="2017-06-01" data-end-date="2017-07-01" data-count-experience="false">
+            <span class="timeline-range">01 Jun 2017 - 01 Jul 2017</span>
+            <span class="timeline-duration"></span>
+          </div>
+          <div class="timeline-content">
+            <h3>Cyber Security Intern - Gurugram Cyber Cell</h3>
+            <ul>
+              <li>Worked on social media crime research and cyber investigation support tasks.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">Impact</p>
+        <h2>Key Achievements</h2>
+      </div>
+      <div class="panel">
+        <ul class="tag-list">
+          <li>Led deployment/support operations for Seqrite, SentinelOne, Bitdefender, and CrowdStrike programs.</li>
+          <li>Drove SOC operational enhancements and future-ready updates as an active SOC manager.</li>
+          <li>Implemented phishing simulations using GoPhish to strengthen organization-wide awareness.</li>
+          <li>Improved email and domain defense through IOC handling and suspicious-domain takedown activities.</li>
+          <li>Ran MDATP migration testing and delivered comprehensive EDR coverage reporting.</li>
+          <li>Implemented GLPI-based ticketing workflow to track SLA metrics and response efficiency.</li>
+          <li>Created actionable advisories and client-facing threat communication for SOC consumers.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certifications" class="section reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">Credentials</p>
+        <h2>Awards & Certifications</h2>
+      </div>
+      <div class="cert-grid">
+        <article class="cert-card">
+          <p class="cert-tech">Cloud Security</p>
+          <h3>AZ-900 Certification</h3>
+          <p class="cert-meta">Microsoft Azure Fundamentals</p>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">Offensive Security</p>
+          <h3>Certified Ethical Hacking</h3>
+          <p class="cert-meta">Ethical Hacking & Penetration Testing</p>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">Digital Forensics</p>
+          <h3>Autopsy Basics Hands-on</h3>
+          <p class="cert-meta">Basis Technology</p>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">Mobile Forensics</p>
+          <h3>Certified Mobilyzer Operator</h3>
+          <p class="cert-meta">Black Bag Technology</p>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">Community Leadership</p>
+          <h3>Microsoft Student Ambassador (Twice)</h3>
+          <p class="cert-meta">Microsoft</p>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">DLP</p>
+          <h3>Trellix DLP Certification</h3>
+          <p class="cert-meta">Data Loss Prevention</p>
+          <a class="cert-link" href="assets/docs/certificates/trellix-dlp.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">SIEM / XDR</p>
+          <h3>Seceon Innovation & Certification Days (Q2 2025)</h3>
+          <p class="cert-meta">aiSIEM, aiXDR, Security Score360, BI360</p>
+          <a class="cert-link" href="assets/docs/certificates/seceon-q2-2025.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">SIEM / XDR</p>
+          <h3>Seceon Innovation & Certification Days (Q4 2025)</h3>
+          <p class="cert-meta">aiSIEM, aiXDR, Security Score360, BI360</p>
+          <a class="cert-link" href="assets/docs/certificates/seceon-q4-2025.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">Endpoint Security</p>
+          <h3>Bitdefender Certification</h3>
+          <p class="cert-meta">Endpoint Protection Technology</p>
+          <a class="cert-link" href="assets/docs/certificates/bitdefender-certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">Security Leadership</p>
+          <h3>CCEP: Certified Cybersecurity Educator Professional</h3>
+          <p class="cert-meta">Red Team Leaders</p>
+          <a class="cert-link" href="assets/docs/certificates/ccep-certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">Security Operations</p>
+          <h3>CPPS Certification</h3>
+          <p class="cert-meta">Professional Cybersecurity Program</p>
+          <a class="cert-link" href="assets/docs/certificates/cpps-certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">Red Team Operations</p>
+          <h3>CRTOM: Certified Red Team Operations Management</h3>
+          <p class="cert-meta">Red Team Leaders</p>
+          <a class="cert-link" href="assets/docs/certificates/crtom-certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">Threat Intelligence</p>
+          <h3>Cyber Threat Intelligence 101</h3>
+          <p class="cert-meta">arcX Foundation Level Threat Intelligence Analyst</p>
+          <a class="cert-link" href="assets/docs/certificates/cti-101-arcx.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        </article>
+        <article class="cert-card">
+          <p class="cert-tech">SIEM</p>
+          <h3>Securonix Academy 100: Introduction to SNYPR</h3>
+          <p class="cert-meta">Securonix Training</p>
+          <a class="cert-link" href="assets/docs/certificates/securonix-snypr-100.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">Research & Projects</p>
+        <h2>Cybersecurity and Engineering Work</h2>
+      </div>
+      <div class="project-carousel panel" id="projectCarousel" data-interval="5200" aria-label="Project highlights carousel">
+        <div class="project-groups" role="tablist" aria-label="Project category filters">
+          <button type="button" class="project-group-btn is-active" data-project-group="academic">Academic</button>
+          <button type="button" class="project-group-btn" data-project-group="work">Work</button>
+        </div>
+        <div class="project-track">
+          <article class="project-slide is-active" data-group="academic">
+            <figure class="project-media">
+              <img src="assets/img/projects/project-ad.svg" fetchpriority="high" decoding="async" alt="Active Directory penetration testing visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">M.Sc. Cyber Security | Major Project</p>
+              <h3>Active Directory Penetration Testing</h3>
+              <p>
+                Led a full security assessment of enterprise Active Directory across on-prem and cloud environments to map
+                privilege escalation paths, misconfigurations, and high-impact vulnerabilities.
+              </p>
+              <ul class="project-skills">
+                <li>Active Directory Security</li>
+                <li>Penetration Testing</li>
+                <li>Privilege Escalation</li>
+                <li>IAM Security Hardening</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="academic">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-docker.svg" decoding="async" alt="Docker container security assessment visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">M.Sc. Cyber Security | Minor Project</p>
+              <h3>Docker Container Security</h3>
+              <p>
+                Assessed Docker environments for vulnerabilities and container-escape risks, then implemented hardening
+                and DevSecOps-aligned controls to strengthen container security posture.
+              </p>
+              <ul class="project-skills">
+                <li>Docker Security</li>
+                <li>Container Hardening</li>
+                <li>Linux Security</li>
+                <li>DevSecOps Validation</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="academic">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-juice.svg" decoding="async" alt="Juice jacking attack simulation visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">M.Sc. Cyber Security | Minor Project</p>
+              <h3>Juice Jacking Attack Simulation</h3>
+              <p>
+                Built a proof-of-concept attack scenario for malicious USB charging stations to demonstrate data
+                exfiltration and malware delivery risks, followed by mitigation guidance.
+              </p>
+              <ul class="project-skills">
+                <li>USB Security</li>
+                <li>Threat Modeling</li>
+                <li>Data Exfiltration</li>
+                <li>Cybersecurity Awareness</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="academic">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-comic.svg" decoding="async" alt="Online comic web app development visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">B.E. Computer Engineering | Major Project</p>
+              <h3>Online Comic Book Web Application</h3>
+              <p>
+                Developed a full-stack comic creation platform enabling users to create, edit, and share digital comic
+                strips with authentication, database integration, and responsive UI.
+              </p>
+              <ul class="project-skills">
+                <li>Java + HTML + CSS</li>
+                <li>Database Management</li>
+                <li>UI / UX Design</li>
+                <li>Cloud Integration</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="academic">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-leave.svg" decoding="async" alt="Online leave management workflow system visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">B.E. Computer Engineering | Minor Project</p>
+              <h3>Online Leave Management System</h3>
+              <p>
+                Created a leave workflow platform for request submission, approval, balance tracking, and reporting to
+                improve transparency and reduce manual process overhead.
+              </p>
+              <ul class="project-skills">
+                <li>Workflow Automation</li>
+                <li>System Design</li>
+                <li>User Authentication</li>
+                <li>Operational Reporting</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="work">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-colgate-easm.svg" decoding="async" alt="External attack surface and fake app investigation visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">Colgate | Security Operations & Threat Intelligence</p>
+              <h3>External Attack Surface & Fake Application Investigation</h3>
+              <p>
+                Investigated impersonating and suspicious public applications using EASM and OSINT workflows, validating
+                authenticity through signatures, metadata, and threat intel correlation to reduce brand abuse risk.
+              </p>
+              <ul class="project-skills">
+                <li>EASM</li>
+                <li>OSINT Investigation</li>
+                <li>Threat Intelligence Analysis</li>
+                <li>Brand Protection</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="work">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-adani-edr-handover.svg" decoding="async" alt="Enterprise EDR handover and operations management visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">Adani | Endpoint Security Operations</p>
+              <h3>EDR Handover & Security Operations Management</h3>
+              <p>
+                Managed operational handover and administration of CrowdStrike and Microsoft Defender, tuned policies for
+                coverage, and resolved endpoint compliance gaps with governance reporting.
+              </p>
+              <ul class="project-skills">
+                <li>EDR Operations</li>
+                <li>CrowdStrike Administration</li>
+                <li>Microsoft Defender</li>
+                <li>Endpoint Compliance</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="work">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-adani-edr-migration.svg" decoding="async" alt="Enterprise EDR migration from Sentinel to Defender visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">Adani | Microsoft Security Program</p>
+              <h3>Enterprise EDR Migration: Sentinel to Microsoft Defender</h3>
+              <p>
+                Executed large-scale endpoint migration using controlled workflows and BigFix orchestration to transition
+                endpoints securely while maintaining continuous security visibility during acquisition-led change.
+              </p>
+              <ul class="project-skills">
+                <li>EDR Migration</li>
+                <li>Endpoint Security Deployment</li>
+                <li>BigFix Integration</li>
+                <li>Risk Mitigation</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="work">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-adani-e3e5.svg" decoding="async" alt="Microsoft E3 to E5 security migration and policy tuning visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">Adani | Microsoft 365 Security</p>
+              <h3>E3 to E5 License Migration & Policy Optimization</h3>
+              <p>
+                Supported Microsoft security licensing migration and optimized policy baselines through assessment outputs,
+                including domain allow/block review to reduce exposure and align with best practices.
+              </p>
+              <ul class="project-skills">
+                <li>Microsoft 365 Security</li>
+                <li>Security Policy Optimization</li>
+                <li>Email Security</li>
+                <li>Risk Assessment</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="work">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-adani-icewarp.svg" decoding="async" alt="IceWarp secure email platform testing visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">Adani | Secure Communication Validation</p>
+              <h3>IceWarp Secure Email Platform Security Testing</h3>
+              <p>
+                Performed security validation of executive secure-email infrastructure, checked attack vectors, and
+                verified policy consistency with Microsoft 365 controls for controlled, residency-focused communication.
+              </p>
+              <ul class="project-skills">
+                <li>Email Security Testing</li>
+                <li>Policy Enforcement Validation</li>
+                <li>Security Risk Assessment</li>
+                <li>Platform Hardening</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="work">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-adani-beef.svg" decoding="async" alt="Threat actor tracking with BEEF framework visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">Adani | Threat Intelligence Investigation</p>
+              <h3>BEEF Deployment for Threat Actor Tracking</h3>
+              <p>
+                Deployed Browser Exploitation Framework in a controlled environment to support investigations related to
+                malicious misinformation activity and improve attribution visibility for threat response teams.
+              </p>
+              <ul class="project-skills">
+                <li>Threat Actor Tracking</li>
+                <li>Incident Investigation</li>
+                <li>BeEF Framework</li>
+                <li>Digital Forensics Support</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="work">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-techd-phishing.svg" decoding="async" alt="On-prem phishing simulation infrastructure visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">TechD Cybersecurity | Awareness Engineering</p>
+              <h3>Phishing Simulation Infrastructure Deployment</h3>
+              <p>
+                Designed and deployed on-prem phishing simulation infrastructure with GoPhish and multi-SMTP routing,
+                tracking open/click/credential metrics while onboarding a commercial platform for scalability.
+              </p>
+              <ul class="project-skills">
+                <li>Phishing Simulation</li>
+                <li>User Behavior Analysis</li>
+                <li>Email Security Testing</li>
+                <li>Security Infrastructure Deployment</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide" data-group="work">
+            <figure class="project-media">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="assets/img/projects/project-techd-ransomware-drill.svg" decoding="async" alt="Ransomware cyber drill simulation visual" loading="lazy" />
+            </figure>
+            <div class="project-content">
+              <p class="project-badge">TechD Cybersecurity | Incident Readiness</p>
+              <h3>Cybersecurity Drill: Ransomware Simulation for Fintech</h3>
+              <p>
+                Ran a ransomware-focused cyber drill with leadership and core stakeholders to test incident communication,
+                recovery workflows, and response readiness while identifying operational resilience gaps.
+              </p>
+              <ul class="project-skills">
+                <li>Incident Response Simulation</li>
+                <li>Ransomware Preparedness</li>
+                <li>Business Continuity Planning</li>
+                <li>Risk Assessment</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-controls" aria-label="Project carousel controls">
+          <button class="project-nav prev" type="button" data-project-prev aria-label="Previous project">&#10094;</button>
+          <div class="project-dots" role="tablist" aria-label="Project slides"></div>
+          <button class="project-nav next" type="button" data-project-next aria-label="Next project">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">Connect</p>
+        <h2>Let&apos;s Build Resilient Security Programs</h2>
+      </div>
+      <div class="contact-layout">
+        <form
+          class="panel contact-form"
+          action="https://formsubmit.co/akshaykoshti97@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="New Portfolio Contact Request" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" />
+
+          <div class="form-row">
+            <label class="form-group">
+              <span>Name</span>
+              <input type="text" name="name" required placeholder="Your name" />
+            </label>
+            <label class="form-group">
+              <span>Email</span>
+              <input type="email" name="email" required placeholder="you@example.com" />
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label class="form-group">
+              <span>Company</span>
+              <input type="text" name="company" placeholder="Company / Organization" />
+            </label>
+            <label class="form-group">
+              <span>Phone</span>
+              <input type="text" name="phone" placeholder="+91..." />
+            </label>
+          </div>
+
+          <label class="form-group">
+            <span>Requirement</span>
+            <textarea name="message" rows="6" required placeholder="Tell me about your SOC/security requirement..."></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+          <p class="form-note">This form submits securely and sends an email to my inbox.</p>
+        </form>
+
+        <div class="panel contact-panel">
+          <div class="contact-split">
+            <div class="contact-info">
+              <p class="contact-mini">Direct Channels</p>
+              <h3 class="contact-title">Reach Akshay Instantly</h3>
+              <p class="contact-blurb">Open for SOC analyst and blue-team operations engagements.</p>
+              <ul class="contact-list">
+                <li class="contact-line">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="3" y="6" width="18" height="12" rx="2"></rect>
+                      <path d="M3 8l9 6 9-6"></path>
+                    </svg>
+                  </span>
+                  <p><span class="contact-key">Email</span><a href="mailto:akshaykoshti97@gmail.com">akshaykoshti97@gmail.com</a></p>
+                </li>
+                <li class="contact-line">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11 11 0 0 0 3.4.54 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.8 21 3 13.2 3 3.9A1 1 0 0 1 4 3h3.5a1 1 0 0 1 1 1 11 11 0 0 0 .54 3.4 1 1 0 0 1-.25 1.03L6.6 10.8z"></path>
+                    </svg>
+                  </span>
+                  <p><span class="contact-key">Phone</span><span>+91 962412XXXX</span></p>
+                </li>
+                <li class="contact-line">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 22s7-5.5 7-12a7 7 0 1 0-14 0c0 6.5 7 12 7 12z"></path>
+                      <circle cx="12" cy="10" r="2.5"></circle>
+                    </svg>
+                  </span>
+                  <p><span class="contact-key">Location</span><span>Ahmedabad, Gujarat, India</span></p>
+                </li>
+                <li class="contact-line">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="3" y="3" width="18" height="18" rx="3"></rect>
+                      <path d="M8 11v6"></path>
+                      <circle cx="8" cy="8" r="1"></circle>
+                      <path d="M12 17v-6h4a2 2 0 0 1 2 2v4"></path>
+                    </svg>
+                  </span>
+                  <p><span class="contact-key">LinkedIn</span><a href="https://www.linkedin.com/in/akshaykoshti" target="_blank" rel="noopener noreferrer">linkedin.com/in/akshaykoshti</a></p>
+                </li>
+                <li class="contact-line">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="6" cy="6" r="2"></circle>
+                      <circle cx="18" cy="8" r="2"></circle>
+                      <circle cx="10" cy="18" r="2"></circle>
+                      <path d="M8 6h5a3 3 0 0 1 3 3v1"></path>
+                      <path d="M10 16v-4a4 4 0 0 0-4-4"></path>
+                    </svg>
+                  </span>
+                  <p><span class="contact-key">GitHub</span><a href="https://github.com/akkidroid" target="_blank" rel="noopener noreferrer">github.com/akkidroid</a></p>
+                </li>
+              </ul>
+            </div>
+            <aside class="contact-visual" aria-hidden="true">
+              <svg viewBox="0 0 220 220" class="contact-avatar" fill="none">
+                <circle cx="110" cy="110" r="100" stroke="rgba(88,177,248,0.45)" stroke-width="2" />
+                <circle cx="110" cy="110" r="84" stroke="rgba(255,83,119,0.35)" stroke-width="1.5" stroke-dasharray="6 8" />
+                <path d="M74 122v-10c0-15 12-27 27-27h18c15 0 27 12 27 27v10" stroke="currentColor" stroke-width="2.4" />
+                <circle cx="110" cy="84" r="18" stroke="currentColor" stroke-width="2.4" />
+                <rect x="68" y="124" width="84" height="48" rx="7" stroke="currentColor" stroke-width="2.4" />
+                <path d="M86 148h48" stroke="currentColor" stroke-width="2.4" />
+                <path d="M98 146v4" stroke="currentColor" stroke-width="2" />
+                <path d="M122 146v4" stroke="currentColor" stroke-width="2" />
+              </svg>
+              <p class="contact-visual-text">SOC Desk Online</p>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-quote">In cybersecurity, defense is not a wall. It is a living system.</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/analytics.js"></script>
+</body>
+</html>
+

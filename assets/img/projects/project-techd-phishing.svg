@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Phishing Simulation Infrastructure Deployment</title>
+  <desc id="desc">GoPhish infrastructure with SMTP relays and campaign analytics.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07162f"/><stop offset="100%" stop-color="#04070f"/></linearGradient></defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g transform="translate(92 106)">
+    <rect x="0" y="30" width="270" height="180" rx="12" fill="#0d2448" stroke="#67ddff" stroke-width="3"/>
+    <path d="M0 58l134 90 136-90" fill="none" stroke="#67ddff" stroke-width="3"/>
+    <path d="M134 6v24" stroke="#ff6d8e" stroke-width="5"/><path d="M134 6c28 0 36 28 12 40" fill="none" stroke="#ff6d8e" stroke-width="5"/>
+    <rect x="320" y="30" width="270" height="180" rx="12" fill="#0d2448" stroke="#67ddff" stroke-width="3"/>
+    <path d="M352 186v-78M406 186v-118M460 186v-56M514 186v-98" stroke="#ff6d8e" stroke-width="12" stroke-linecap="round"/>
+    <rect x="76" y="238" width="438" height="80" rx="10" fill="#0c203f" stroke="#67ddff" stroke-width="2.5"/>
+    <path d="M104 278h170M296 278h190" stroke="#d8ecff" stroke-width="4"/>
+  </g>
+  <text x="36" y="468" fill="#d6ebff" font-family="'Space Grotesk', Arial, sans-serif" font-size="28" font-weight="700">TECHD: PHISHING SIMULATION INFRASTRUCTURE</text>
+</svg>
