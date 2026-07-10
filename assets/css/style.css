@@ -1563,3 +1563,25 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+#formStatus{
+    display:none;
+    margin-top:20px;
+    padding:15px;
+    border-radius:8px;
+    text-align:center;
+    font-size:15px;
+}
+
+#formStatus.success{
+    display:block;
+    background:#062917;
+    border:1px solid #1fd36b;
+    color:#58ff9d;
+}
+
+#formStatus.error{
+    display:block;
+    background:#2a1111;
+    border:1px solid #ff4d4d;
+    color:#ff7b7b;
+}
