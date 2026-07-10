@@ -11,11 +11,9 @@
   <link rel="apple-touch-icon" href="assets/img/ak-mark.svg" />
   <link rel="dns-prefetch" href="//fonts.googleapis.com" />
   <link rel="dns-prefetch" href="//fonts.gstatic.com" />
-  <link rel="dns-prefetch" href="//formsubmit.co" />
   <link rel="dns-prefetch" href="//api.countapi.xyz" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://formsubmit.co" />
   <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="preload" as="image" href="assets/img/ak-mark.svg" type="image/svg+xml" />
   <link rel="preload" as="image" href="assets/img/profile.jpg" />
@@ -974,13 +972,12 @@
       </div>
       <div class="contact-layout">
         <form
-          class="panel contact-form"
-          action="https://formsubmit.co/1c5c01829a595de4f7dacea8d894b715"
-          method="POST"
+	  id="contactForm"
+    	  class="panel contact-form"
         >
-          <input type="hidden" name="_subject" value="New Portfolio Contact Request" />
-          <input type="hidden" name="_template" value="table" />
-          <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" />
+	<input type="hidden" name="access_key" value="98e17d76-8b26-4e37-9598-bdd3f51b25fc">
+	<input type="hidden" name="subject" value="New Portfolio Contact Request">
+	<input type="hidden" name="from_name" value="Akshay Koshti Portfolio">
 
           <div class="form-row">
             <label class="form-group">
@@ -1010,6 +1007,7 @@
           </label>
 
           <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+	  <div id="formStatus"></div>
           <p class="form-note">This form submits securely and sends an email to my inbox.</p>
         </form>
 
