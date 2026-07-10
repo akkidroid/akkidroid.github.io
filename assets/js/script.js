@@ -752,3 +752,62 @@ if (socLog) {
     logIndex += 1;
   }, 2500);
 }
+
+const form = document.getElementById("contactForm");
+
+if (form) {
+
+    const status = document.getElementById("formStatus");
+    const button = form.querySelector(".form-submit");
+
+    form.addEventListener("submit", async function (e) {
+
+        e.preventDefault();
+
+        button.disabled = true;
+        button.innerHTML = "Sending...";
+
+        const formData = new FormData(form);
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+
+            status.className = "success";
+
+            status.innerHTML =
+                "<strong>✓ Message Sent Successfully</strong><br><br>Thank you for contacting me. I will get back to you shortly.";
+
+            form.reset();
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+            setTimeout(() => {
+
+                location.reload();
+
+            }, 5000);
+
+        } else {
+
+            status.className = "error";
+
+            status.innerHTML =
+                "<strong>Failed to send message.</strong><br>Please try again.";
+
+        }
+
+        button.disabled = false;
+        button.innerHTML = "Send Message";
+
+    });
+
+}
